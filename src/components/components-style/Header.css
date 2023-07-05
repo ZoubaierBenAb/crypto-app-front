@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+.logo-container {
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin: 50px 0 0 145px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+.logo:visited {
+  color: inherit;
+}
+
+.navbar {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+}
+
+.routes {
+  position: absolute;
+  top: 25px; /* Adjust the top spacing as needed */
+  right: 150px; /* Adjust the right spacing as needed */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(224, 210, 217, 0.8);
+}
+
+.routes a {
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Trirong', serif;
+  display: block;
+}
+
+.routes a:visited {
+  color: inherit;
+}
+
+.routes a:hover {
+  color: rgba(231, 225, 228, 0.8); /* Set the desired color on hover */
+}
+
+.routes a.active {
+  color: blue; /* Set the desired color for the active link */
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%; /* Adjust the left spacing as needed */
+  right: 10%; /* Adjust the right spacing as needed */
+  border-bottom: 0.5px solid lightgrey; /* Use a thinner line */
+}
+@media (max-width: 767px) {
+  .logo-container {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar{
+    display: flex;
+    
+  }
+  .routes{
+    margin-top: 30px;
+    margin-left: 1000px;
+  }
+}

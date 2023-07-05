@@ -1,0 +1,41 @@
+.item{
+min-height: 300px;
+min-width : 300px;
+border: 3px solid lightblue;
+}
+.container-1{
+ 
+    gap: 30px;
+    display: flex;
+    
+}
+.coin-image{
+
+    margin-top: 15px;
+}
+.current-price{
+    width: 50px;
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-left: 200px;
+}
+.inner-carousel{
+    display: flex;
+    gap: 20px;
+    
+}
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+}
+.title{
+    margin-left: 42%;}
+
+    .coin-infos{
+        display: flex;
+        width: 450px;
+        gap: 8px;
+        margin-left: 15px;
+        color: rgba(255, 247, 251, 0.8);
+    }

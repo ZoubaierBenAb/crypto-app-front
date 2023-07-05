@@ -1,0 +1,29 @@
+.category-card{
+height: 300px;
+width: 310px;
+border: 0.5px solid lightgrey;
+margin-bottom: 50px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.crypto-stats-container{
+margin-top: 80px;
+margin-left: 270px;
+width: 1000px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+} 
+.crypto-image{
+  width: 40px;
+  height: 40px;
+}
+.category-coins{
+  
+}
+.crypto-info h5{
+  font-size: 15px;
+}

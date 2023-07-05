@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital@1&display=swap');
+
+
+.sign-in{
+    margin-top: 80px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    
+   
+   
+    max-width: 1140px;
+    margin-left: 150px;
+}
+.sign-in h1{
+   margin-bottom: 80px;
+   font-family: 'Proza Libre', sans-serif;
+   color :rgba(255, 247, 251, 0.8);
+   width: 650px;
+   margin-left: 270px;
+   
+}
+.form{
+    margin-left: 15%;
+}

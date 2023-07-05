@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Proza+Libre:ital@1&display=swap');
+
+.container {
+    margin-top: 80px;
+    margin-left: 255px;
+   
+  
+}
+
+.coin-cell{
+display: flex;
+margin-right: 50px;
+
+
+
+
+}
+.price-change{
+  font-family: 'Inter', sans-serif;
+}
+
+  table {
+    width: 1000px;
+    height: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  th {
+    text-align: left;}
+  
+  thead th {
+    background-color: #55608f;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  tbody td {
+    position: relative;
+  }
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+  .coin-link {
+    color: rgba(255, 247, 251, 0.8);
+    text-decoration: none;
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family: 'Inter', sans-serif;
+    
+  }
+  
+  .coin-link:hover,
+  .coin-link:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  .container::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .m{
+    margin-top: 30px;
+  }
+ .wishlist-button{
+
+
+  margin-top: 20px;
+ }
+ .pagination{
+  margin-top: 10px;
+
+  margin-left: 745px;
+  
+ }
+ .page{
+  margin : 0 10px 0 10px;
+  
+  
+ }

@@ -1,0 +1,70 @@
+.commentInput {
+  background: transparent;
+  height: 40px;
+  color: rgba(255, 247, 251, 0.8);
+  font-weight: 500;
+}
+
+.commentInput:hover {
+  border: 0.5px solid lightgrey;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.no-posts {
+
+
+  font-size: large;
+  color: rgb(103, 136, 235);
+}
+.posts {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  border-bottom : 0.5px solid lightgrey;
+
+  flex-wrap: wrap;
+}
+.author {
+  font-size: 20px;
+  color: rgb(103, 136, 235);
+}
+.content {
+  color: rgba(255, 247, 251, 0.8);
+}
+.commentBox {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 350px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  overflow: hidden;
+
+}
+
+.notSignedin{
+
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 0px;
+  align-items: center;
+  text-align: center;
+  color:rgba(255, 247, 251, 0.8)
+  
+}
+.signin{
+margin-left: 200px;
+margin-top: 15px;
+color: rgba(255, 247, 251, 0.8);
+border-radius: 3px;
+margin-bottom: 20px;
+font-size: 15px;
+width: 55px;
+}
+.no-posts h4{
+margin-top: 120px;
+text-align: center;
+
+}

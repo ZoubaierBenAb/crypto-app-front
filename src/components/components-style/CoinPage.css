@@ -1,0 +1,20 @@
+.coin-box{
+
+    height: 100px;
+}
+.coin-image{
+    height: 30px;
+    width: 30px;
+    background-color: none;
+
+  filter: brightness(0.8);
+  margin-left: 10px;
+
+    
+}
+.extra_info{
+  color : rgba(255, 247, 251, 0.8)
+}
+.coin-name{
+margin :0
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+
+.our-website {
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  padding: 20px;
+  border: 0.5px solid lightgrey;
+  max-width: 1160px;
+  margin-left: 160px;
+}
+
+.our-website p:nth-child(1) {
+  font-family: 'Gentium Plus', serif;
+ font-size: 50px;
+  color: rgba(255, 247, 251, 0.8);
+  margin: 0;
+}
+
+.first-desc p {
+    
+    font-family: 'Gentium Plus', serif;
+ 
+  color: rgba(255, 247, 251, 0.8);
+}
+.globe-image {
+  width: 250px;
+  height: 250px;
+margin-left: 80px;
+ 
+}
+
+.first-desc {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+ flex-wrap: wrap;
+  gap: 20px;
+  width: 650px;
+}
+
+
+.second-desc p {
+    margin-right: 800px;
+    
+}
+
+
