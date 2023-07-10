@@ -37,11 +37,13 @@ function Header() {
         </Link>
       </div>
       <div className="routes">
-        <Link to='/wishlist'>Wishlist</Link>
         <Link to="/cryptoCurrencies">Crypto Currencies</Link>
         <Link to="/exchanges">Exchanges</Link>
         {isSuccess || user ? (
+          <>
+          <Link to='/wishlist'>Wishlist</Link>
           <Button danger type="text" onClick={onLogout}>Logout</Button >
+          </>
         ) : (
           <>
             <Link to="/signup">Sign up</Link>
